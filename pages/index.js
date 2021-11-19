@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 export default function Home() {
-  console.log("envrnmnt: " + process.env.envrnmnt)
+  console.log("envrnmnt: " + process.env.NEXT_PUBLIC_ENVRNMNT)
   console.log("all env: ", process.env)
   return (
     <div className="container">
